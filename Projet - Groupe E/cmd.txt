@@ -1,0 +1,1 @@
+java -mx7g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,ssplit,pos,lemma,ner,parse,dcoref -file W:\Bibliotheques\Documents\Github\ProjetE-TAL\TAL\corpus.txt
