@@ -1,6 +1,6 @@
-import nltk
+#import nltk
 import re
-a = open("corpus2.txt","r")
+a = open("ctest.txt","r")
 corpus=a.readlines()       #le corpus en liste
 
 corpuss=str(corpus)        #le corpus en une seule chaîne
@@ -49,7 +49,5 @@ for i in range(len(liste2)):                    #Voir commentaire liste3
         liste3.append(liste2[i])
     lpresent=0
 
-print(liste3)                                   #Rien à voir ici, pas de meurtre dans le corpus réduit "corpus2.txt", à toi de jouer avec un vrai corpus !
+print(liste3)          #Rien à voir ici, pas de meurtre dans le corpus réduit "corpus2.txt", à toi de jouer avec un vrai corpus !
 
-#Bonne chance Camarade
-#Terminé
